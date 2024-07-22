@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudraneel's Portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="portfolio-apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="portfolio-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="portfolio-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="portfolio-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="portfolio-512x512.png"
+    />
+    <link rel="shortcut icon" href="portfolio.ico" />
+    <link rel="manifest" href="portfolio-site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8e33f29adb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <header>
+            <h1 id="site-title"><span>Personal Portfolio</span></h1>
+          </header>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Hi, I am</p>
+          <h1><span>R</span>udraneel<br /><span>B</span>hattacharyya</h1>
+          <h2>
+            <span>E</span>ngineer | <span>C</span>oder | <span>D</span>eveloper
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!------About-------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image.jpeg" class="about-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"><span>A</span>bout<span> M</span>e</h1>
+            <p style="margin-top: 15px">
+              I am Rudraneel Bhattacharyya, currently a 3rd year B.Tech
+              (Electronics and Communication Engineering) student at NIT,
+              Agartala. I am deeply enthusiastic about computer programming and
+              proficient in C, C++ and Python. Apart from that, I am much eager
+              about web development, and am well versed in HTML, CSS,
+              JavaScript, along with the basics of React.<br /><br />Also, I am
+              deeply interested in the core electronics sector since it covers a
+              wide range of fields like VLSI, Microcontroller, Embedded Systems,
+              etc. ECE being an evergreen branch, has high demands with
+              increasing innovations and capable of strongly supporting the
+              modern digital era using programming.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>2022-2026</span><br />B.Tech (Electronics and
+                  Communication Engineering)<br />National Institute of
+                  Technology, Agartala
+                </li>
+                <li>
+                  <span>2021</span><br />AISSCE (Class XII)<br />Don Bosco
+                  School, Agartala
+                </li>
+                <li>
+                  <span>2019</span><br />AISSE (Class X)<br />Don Bosco School,
+                  Agartala
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages & DSA</span><br />Python, C++, C,
+                  SQL, JavaScript
+                </li>
+                <li><span>Web Technologies</span><br />HTML, CSS, React</li>
+                <li><span>Other Tools</span><br />MATLAB, GitHub</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Managed Network Expert (MNE) @Chegg Inc.</span
+                  ><br />Provided well-structured answers to technical
+                  questions, simplifying complex concepts for students, Utilized
+                  in-built software to enhance clarity and instructional value
+                  of answers, Published 50+ detailed explanations, ensuring
+                  in-depth understanding of concepts.
+                </li>
+                <li><span></span><br /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------service----->
+    <div id="skill">
+      <div class="container">
+        <h1 class="sub-title"><span>M</span>y <span>S</span>ervices</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python Development</h2>
+            <p style="font-size: 15px">
+              In Python Development, I've taken my first steps into the
+              language, mastering its fundamental concepts and syntax. I'm
+              actively exploring frameworks like Flask and Django to understand
+              how Python can be harnessed to build web applications
+              efficiently.<br /><br />
+              My exposure to data structures and algorithms has been a valuable
+              addition, allowing me to collaborate on projects more seamlessly.
+              Additionally, I've started to venture into data handling using
+              Pandas and NumPy, laying the foundation for future endeavors in
+              data-driven applications
+            </p>
+            <!-- <a href="https://www.python.org/">Click here to know more</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Web Development</h2>
+            <p style="font-size: 15px">
+              In Web Development, I've been immersing myself in the trio of
+              HTML, CSS, and JavaScript to create visually appealing and
+              responsive web interfaces. While still in the early stages, I'm
+              enthusiastic about incorporating frontend frameworks like React to
+              enhance user experiences.<br /><br />
+              Simultaneously, I'm gaining insights into backend frameworks such
+              as Flask, aiming to strike a balance between creating engaging
+              frontend interfaces and implementing robust server-side logic.
+            </p>
+            <!-- <a href="https://www.geeksforgeeks.org/web-development/"
+              >Click here to know more</a
+            > -->
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Data Structures and Algorithms</h2>
+            <p style="font-size: 15px">
+              Driven by a fascination for problem-solving and computational
+              efficiency, I've dedicated my time and energy into coursework and
+              personal projects to deepen my understanding of fundamental data
+              structures such as arrays, linked lists, trees, and graphs. My
+              explorations extend to algorithmic paradigms, including sorting
+              algorithms, searching techniques, and dynamic programming.
+              Embracing the challenges presented by these concepts, I am honing
+              my skills to approach problem-solving in a systematic and
+              optimized manner.<br /><br />
+              Additionally, I like to work on proects that involve use of these
+              principles to solve real-world problems efficiently. My evolving
+              proficiency in Data Structures and Algorithms reflects my
+              commitment to not only academic excellence but also a passion for
+              creating elegant and efficient solutions in the realm of computer
+              science.
+            </p>
+            <!-- <a
+              href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/"
+              >Click here to know more</a
+            > -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------portfolio------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title"><span>M</span>y <span>W</span>ork</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Portfolio.png" />
+            <div class="layer">
+              <h3>Rudraneel's Portfolio</h3>
+              <p style="font-size: 15px">
+                My personal portfolio website showcases my skills, projects, and
+                professional journey in a clean, responsive, and visually
+                appealing layout. It is designed to provide an engaging
+                experience for visitors, highlighting my expertise in
+                programming, web development, and various technical domains. The
+                website includes several sections to offer a comprehensive view
+                of my background and accomplishments.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="CineFinder.png" />
+            <div class="layer">
+              <h3>CineFinder</h3>
+              <p style="font-size: 15px">
+                Developed a Python-based application using the Tkinter library
+                that allows users to search for movies and web shows, view a
+                list of matching results, and display detailed information for a
+                selected title. It utilizes the OMDB API to search for titles
+                matching the user input and then displays search results in a
+                list using a Tkinter Treeview widget.
+              </p>
+              <p style="font-size: 14px; margin-top: 30px">
+                Click the link below to try CineFinder.
+              </p>
+              <a href="https://github.com/neelrudra2/CineFinder" target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="4.jpeg" />
+            <div class="layer">
+              <h3>TravelAura</h3>
+              <p style="font-size: 15px">
+                TravelAura is a feature-rich travel management website designed
+                to provide users with an all-in-one platform for planning and
+                booking their travel itineraries. The website integrates
+                multiple functionalities including itinerary planning, flight
+                booking, train booking, bus booking, and hotel booking, offering
+                a seamless user experience.
+              </p>
+              <p style="font-size: 14px; margin-top: 30px">
+                Visit TravelAura by clicking the link below.
+              </p>
+              <a href="https://neelrudra2.github.io/TravelAura/" target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/neelrudra2" target="_blank" class="btn"
+          >See More</a
+        >
+      </div>
+    </div>
+
+    <!-----------contact----------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title"><span>C</span>ontact <span>M</span>e</h1>
+            <p>
+              <i class="fa-regular fa-envelope"></i>neel.rudra.mailbox@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 6033061894</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Rudraneel</p>
+      </div>
+    </div>
+
+    <script>
+      function startAnimation() {
+        const h2Element = document.querySelector(".header-text h2");
+        h2Element.style.animation = "none";
+        void h2Element.offsetWidth; // Trigger reflow
+        h2Element.style.animation = null;
+        h2Element.style.animation =
+          "typing 5s steps(350, end), blink-caret 0.75s step-end infinite";
+      }
+
+      setInterval(startAnimation, 6000);
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzN_sfRy0iU_CiTrXnUsk9nnkFAeImKAtCaDivckeVFEwBViGagFopMASOmngRI6ZYj/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 4000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
